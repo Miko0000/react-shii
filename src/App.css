@@ -1,11 +1,8 @@
-/* Tailwind core */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@reference "./index.css"
 
 /* 🎀 Pastel Typography */
 body {
-  @apply font-raleway text-gray-700 bg-gradient-to-br from-babypink via-babyblue to-babyyellow min-h-screen;
+  @apply font-raleway text-gray-700 bg-linear-to-br from-babypink via-babyblue to-babyyellow min-h-screen;
 }
 
 /* 🌸 Section Headings */
